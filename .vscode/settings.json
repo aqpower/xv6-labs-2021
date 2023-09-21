@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        ".clang-format": "cpp",
+        "user.h": "c",
+        "types.h": "c",
+        "stat.h": "c"
+    }
+}
