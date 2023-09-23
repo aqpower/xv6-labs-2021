@@ -3,6 +3,7 @@
         ".clang-format": "cpp",
         "user.h": "c",
         "types.h": "c",
-        "stat.h": "c"
+        "stat.h": "c",
+        "fs.h": "c"
     }
 }
