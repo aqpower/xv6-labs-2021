@@ -39,7 +39,8 @@ void openPath(char path[], char *tar) {
     switch (st.type) {
     case T_FILE:
         if(fmtPath(path, tar)){
-            printf("%s\n", path);
+            write(1, path, strlen(path));
+            write(1, "\n", 1);
         }
         break;
     case T_DIR:
